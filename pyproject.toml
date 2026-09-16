@@ -69,10 +69,8 @@ Documentation = "https://qyro.neuri.ai"
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.poetry]
-packages = [
-
-]
+[tool.poetry.project]
+package-mode = false
 
 include = [
 ]
