@@ -2,6 +2,7 @@
     "app_name": "${app_name}",
     "author": "${author}",
     "entry_point": "src/main/python/main.py",
+    "addons": "${addons}",
     "version": "${version}",
     "binding": "${binding}",
     "hidden_imports": [
