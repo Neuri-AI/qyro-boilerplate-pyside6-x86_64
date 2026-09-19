@@ -1,65 +1,41 @@
-# Qyro App
+# 🚀 Qyro Qt Desktop Boilerplate
 
-This application is built using [Qyro](https://qyro.neuri.ai/), a modern **Python-based application library** for building **desktop and mobile applications**.
+> **The official, universal Qt desktop starter template for the [Qyro](https://github.com/Neuri-AI/qyro) ecosystem.**
 
-Qyro is **not a traditional library**. It provides a local runtime that powers native-like applications, including:
+[![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://python.org)
+[![Qt Bindings](https://img.shields.io/badge/Qt-PySide6%20%7C%20PyQt6%20%7C%20PyQt5%20%7C%20PySide2-green.svg)](https://qt.io)
+[![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
 
-- Desktop apps (Windows, macOS, Linux)
-- Mobile apps (iOS, Android)
-- Packaging and installer generation
+---
 
+## 🌟 Overview
 
-## Installation
+`qyro-boilerplate-qt` is the default starter template used by `qyro-cli` to scaffold production-ready desktop applications in seconds. It provides zero-boilerplate window bootstrapping, reactive state management, and unified asset resolution across modern Qt bindings:
 
-```bash
-poetry install
-```
+* **PySide6** (Qt 6 official)
+* **PyQt6** (Riverbank)
+* **PyQt5** (Qt 5)
+* **PySide2** (Qt 5 legacy)
 
-This installs all the required dependencies for the application.
+---
 
-## Run application
+## ✨ Features
 
-```bash
-qyro start
-```
+* **🔄 Multi-Binding Support:** Run your app with PySide or PyQt simply by editing your project settings.
+* **⚡ Reactive State & Data-Binding:** Built-in event bus and reactive widget store out of the box.
+* **📦 Smart Resource Resolver:** Automated detection and loading of icons, images, and fonts (`resources/base/`, `resources/windows/`, `resources/mac/`, `resources/linux/`).
+* **❄️ Packaging Ready:** Pre-configured for seamless standalone executable builds with PyInstaller (`sys._MEIPASS` friendly).
+* **🎨 Window Auto-Config:** Automatic application title and icons based on your configuration files.
 
-This command starts the **local application runtime** and launches the app window.
+---
 
-## Build (debug)
+## 🚀 Usage
 
-```bash
-qyro freeze
-```
-
-This command builds the application into the `build/` directory for debugging and testing purposes.
-
-
-## Build (production)
+This template is scaffolded automatically via the **Qyro CLI**:
 
 ```bash
-qyro freeze --profile production
-```
+# Create a PySide6 project
+qyro init my-app --binding PySide6
 
-This command creates an optimized production build of the application.
-
-## Package application
-
-```bash
-qyro package
-```
-
-This command generates **platform-specific installers** for your application
-(e.g. `.exe`, `.dmg`, `.AppImage`, mobile packages, depending on target).
-
-
-## License
-
-This project is licensed under the MIT License.
-See the [LICENSE](LICENSE) file for details.
-
-
-
-<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/samlakodad" title="samlakodad">samlakodad</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
-
-You can create Icon.ico from the .png files with
-[an online tool](http://icoconvert.com/Multi_Image_to_one_icon/).
+# Or with PyQt6
+qyro init my-app --binding PyQt6
