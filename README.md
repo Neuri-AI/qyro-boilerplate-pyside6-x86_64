@@ -1,6 +1,6 @@
 # Qyro App
 
-This application is built using [Qyro](https://qyro.neuri.ai/), a modern **Python-based application library** for building **desktop and mobile applications** using native and web technologies as a rendering layer.
+This application is built using [Qyro](https://qyro.neuri.ai/), a modern **Python-based application library** for building **desktop and mobile applications**.
 
 Qyro is **not a traditional library**. It provides a local runtime that powers native-like applications, including:
 
