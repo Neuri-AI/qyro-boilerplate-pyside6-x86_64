@@ -8,39 +8,7 @@ authors = [
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.9,<3.15"
-keywords = [
-    "ppg",
-    "python",
-    "pyqt",
-    "pyside",
-    "desktop",
-    "application",
-    "generator",
-    "cli",
-    "component",
-    "state management",
-    "pydux",
-    "fbs",
-    "react",
-    "redux",
-    "app development",
-    "modular",
-    "scalable",
-    "lifecycle",
-    "component-based",
-    "pyside6",
-    "pyqt6",
-    "pyqt5",
-    "pyqt6 generator",
-    "pyqt5 generator",
-    "pyside6 generator",
-    "pyside5 generator",
-    "pyqt6 app",
-    "pyqt5 app",
-    "pyside6 app",
-    "pyside5 app",
-    "app generator"
-]
+keywords = []
 classifiers = [
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
